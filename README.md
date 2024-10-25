@@ -36,3 +36,56 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 # Install the required packages
 pip install fastapi uvicorn cryptography
+```
+
+## Running the API
+
+Once the dependencies are installed, you can run the API using Uvicorn:
+
+```bash
+uvicorn main:app --reload
+
+## API Endpoints
+1. Welcome Endpoint
+GET /
+Returns a welcome message and instructions for using the API.
+
+2. Encryption Endpoint
+POST /encrypt
+
+Request Body
+```bash
+{
+  "plain_text": "Your text to encrypt",
+  "key": "1234"  // Numeric key between 4 and 10 digits
+}
+Response
+{
+  "encrypted_text": "gAAAAABh... (encrypted text)"
+}
+```
+3. Decryption Endpoint
+POST /decrypt
+
+Request Body
+```bash
+{
+  "encrypted_text": "gAAAAABh... (encrypted text)",
+  "key": "1234"  // Numeric key used during encryption
+}
+Response
+{
+  "decrypted_text": "Your text to decrypt"
+}
+```
+4. Health Check Endpoint
+GET /health-check
+
+```bash
+Response
+{
+  "status": "Server is running"
+}
+```
+
+```
