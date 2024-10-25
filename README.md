@@ -27,12 +27,8 @@ To run this API, ensure you have Python 3.6 or higher installed. You can create 
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/K2k-AiEngineer/Encryption_Decryption_API.git
 
-# Create a virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 # Install the required packages
 pip install fastapi uvicorn cryptography
