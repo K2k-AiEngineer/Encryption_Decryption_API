@@ -32,6 +32,9 @@ git clone https://github.com/K2k-AiEngineer/Encryption_Decryption_API.git
 
 # Install the required packages
 pip install fastapi uvicorn cryptography
+
+OR
+pip install -r requirements.txt
 ```
 
 ## Running the API
