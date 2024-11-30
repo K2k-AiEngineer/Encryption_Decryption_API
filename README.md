@@ -63,7 +63,8 @@ Response
   "encrypted_text": "gAAAAABh... (encrypted text)"
 }
 ```
-![image](https://github.com/user-attachments/assets/511acea3-db92-46c1-b823-7cc00d07894f)
+![image](https://github.com/user-attachments/assets/78a4162d-3c5e-4e6e-a264-ee69f4a6011e)
+
 3. Decryption Endpoint
 POST /decrypt
 
@@ -78,6 +79,8 @@ Response
   "decrypted_text": "Your text to decrypt"
 }
 ```
+![image](https://github.com/user-attachments/assets/511acea3-db92-46c1-b823-7cc00d07894f)
+
 4. Health Check Endpoint
 GET /health-check
 
