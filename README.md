@@ -49,6 +49,8 @@ uvicorn main:app --reload
 GET /
 Returns a welcome message and instructions for using the API.
 
+![image](https://github.com/user-attachments/assets/d5764901-bd8d-484f-aca7-ab21f2f527d9)
+
 2. Encryption Endpoint
 POST /encrypt
 
