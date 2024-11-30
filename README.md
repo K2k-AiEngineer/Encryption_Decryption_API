@@ -63,6 +63,7 @@ Response
   "encrypted_text": "gAAAAABh... (encrypted text)"
 }
 ```
+![image](https://github.com/user-attachments/assets/511acea3-db92-46c1-b823-7cc00d07894f)
 3. Decryption Endpoint
 POST /decrypt
 
